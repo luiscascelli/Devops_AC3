@@ -1,0 +1,100 @@
+2020-10-06T00:02:45.387133+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-06T00:02:48.762674+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-06T00:02:51.707245+00:00 app[web.1]: * Serving Flask app "t8" (lazy loading)
+2020-10-06T00:02:51.707309+00:00 app[web.1]: * Environment: production
+2020-10-06T00:02:51.708261+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-06T00:02:51.708343+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-06T00:02:51.708414+00:00 app[web.1]: * Debug mode: off
+2020-10-06T00:02:51.740595+00:00 app[web.1]: * Running on http://0.0.0.0:38673/ (Press CTRL+C to quit)
+2020-10-06T00:02:52.993778+00:00 heroku[web.1]: State changed from starting to up
+2020-10-06T00:02:53.000000+00:00 app[api]: Build succeeded
+2020-10-06T00:03:07.971565+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ac3luisantonio.herokuapp.com request_id=21ea5bd6-61a0-4a3c-a60d-086f7cd2a116 fwd="189.127.240.240" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-06T00:03:13.396132+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ac3luisantonio.herokuapp.com request_id=e6497702-35de-406a-8135-18d9b560bcd8 fwd="189.127.240.240" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-06T00:05:21.000000+00:00 app[api]: Build started by user luis.cascelli@gmail.com
+2020-10-06T00:05:49.203585+00:00 app[api]: Release v5 created by user luis.cascelli@gmail.com
+2020-10-06T00:05:49.203585+00:00 app[api]: Deploy d278cd7f by user luis.cascelli@gmail.com
+2020-10-06T00:05:49.515644+00:00 heroku[web.1]: Restarting
+2020-10-06T00:05:49.517434+00:00 heroku[web.1]: State changed from up to starting
+2020-10-06T00:05:50.697669+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-06T00:05:50.799700+00:00 heroku[web.1]: Process exited with status 143
+2020-10-06T00:05:52.896162+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-06T00:05:54.973762+00:00 app[web.1]: * Serving Flask app "t8" (lazy loading)
+2020-10-06T00:05:54.973786+00:00 app[web.1]: * Environment: production
+2020-10-06T00:05:54.973810+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-06T00:05:54.973840+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-06T00:05:54.973868+00:00 app[web.1]: * Debug mode: off
+2020-10-06T00:05:54.981382+00:00 app[web.1]: * Running on http://0.0.0.0:32343/ (Press CTRL+C to quit)
+2020-10-06T00:05:56.650789+00:00 heroku[web.1]: State changed from starting to up
+2020-10-06T00:05:57.000000+00:00 app[api]: Build succeeded
+2020-10-06T00:06:08.149118+00:00 app[web.1]: 10.95.165.205 - - [06/Oct/2020 00:06:08] "GET / HTTP/1.1" 200 -
+2020-10-06T00:06:08.154852+00:00 heroku[router]: at=info method=GET path="/" host=ac3luisantonio.herokuapp.com request_id=ec3fae7d-adc7-40a7-956f-66027cab1a7a fwd="189.127.240.240" dyno=web.1 connect=1ms service=6ms status=200 bytes=186 protocol=https
+2020-10-06T00:06:08.371891+00:00 app[web.1]: 10.95.165.205 - - [06/Oct/2020 00:06:08] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-06T00:06:08.374257+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3luisantonio.herokuapp.com request_id=ea7f1e37-19f6-49e6-8957-f7a43087da61 fwd="189.127.240.240" dyno=web.1 connect=1ms service=10ms status=404 bytes=379 protocol=https
+2020-10-06T00:40:18.048471+00:00 heroku[web.1]: Idling
+2020-10-06T00:40:18.050872+00:00 heroku[web.1]: State changed from up to down
+2020-10-06T00:40:21.456017+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-06T00:40:21.600430+00:00 heroku[web.1]: Process exited with status 143
+2020-10-08T19:13:26.000000+00:00 app[api]: Build started by user luis.cascelli@gmail.com
+2020-10-08T19:13:50.667834+00:00 app[api]: Deploy 3e25dbef by user luis.cascelli@gmail.com
+2020-10-08T19:13:50.667834+00:00 app[api]: Release v6 created by user luis.cascelli@gmail.com
+2020-10-08T19:13:51.029070+00:00 heroku[web.1]: State changed from down to starting
+2020-10-08T19:13:54.248444+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-08T19:13:56.969779+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-08T19:13:56.969809+00:00 app[web.1]: * Environment: production
+2020-10-08T19:13:56.969810+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-08T19:13:56.969849+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-08T19:13:56.969889+00:00 app[web.1]: * Debug mode: off
+2020-10-08T19:13:56.991052+00:00 app[web.1]: * Running on http://0.0.0.0:28171/ (Press CTRL+C to quit)
+2020-10-08T19:13:57.355924+00:00 heroku[web.1]: State changed from starting to up
+2020-10-08T19:13:59.000000+00:00 app[api]: Build succeeded
+2020-10-08T19:14:12.299724+00:00 heroku[router]: at=info method=GET path="/" host=ac3luisantonio.herokuapp.com request_id=c37c19d4-68c0-41dd-a466-a7c6a874813d fwd="179.209.46.62" dyno=web.1 connect=0ms service=4ms status=500 bytes=449 protocol=https
+2020-10-08T19:14:12.299941+00:00 app[web.1]: [2020-10-08 19:14:12,299] ERROR in app: Exception on / [GET]
+2020-10-08T19:14:12.299962+00:00 app[web.1]: Traceback (most recent call last):
+2020-10-08T19:14:12.299963+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 2284, in wsgi_app
+2020-10-08T19:14:12.299963+00:00 app[web.1]: response = self.full_dispatch_request()
+2020-10-08T19:14:12.299965+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1808, in full_dispatch_request
+2020-10-08T19:14:12.299965+00:00 app[web.1]: return self.finalize_request(rv)
+2020-10-08T19:14:12.299965+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1823, in finalize_request
+2020-10-08T19:14:12.299966+00:00 app[web.1]: response = self.make_response(rv)
+2020-10-08T19:14:12.299966+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1941, in make_response
+2020-10-08T19:14:12.299966+00:00 app[web.1]: 'The view function did not return a valid response tuple.'
+2020-10-08T19:14:12.299967+00:00 app[web.1]: TypeError: The view function did not return a valid response tuple. The tuple must have the form (body, status, headers), (body, status), or (body, headers).
+2020-10-08T19:14:12.300540+00:00 app[web.1]: 10.5.177.43 - - [08/Oct/2020 19:14:12] "GET / HTTP/1.1" 500 -
+2020-10-08T19:14:13.410141+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3luisantonio.herokuapp.com request_id=9ccdb9ca-2ca3-4fde-8c6d-3ced4b523931 fwd="179.209.46.62" dyno=web.1 connect=0ms service=50ms status=404 bytes=379 protocol=https
+2020-10-08T19:14:13.411419+00:00 app[web.1]: 10.5.177.43 - - [08/Oct/2020 19:14:13] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-08T19:18:15.000000+00:00 app[api]: Build started by user luis.cascelli@gmail.com
+2020-10-08T19:18:37.674833+00:00 app[api]: Release v7 created by user luis.cascelli@gmail.com
+2020-10-08T19:18:37.674833+00:00 app[api]: Deploy 925cfba2 by user luis.cascelli@gmail.com
+2020-10-08T19:18:39.461351+00:00 heroku[web.1]: Restarting
+2020-10-08T19:18:39.474161+00:00 heroku[web.1]: State changed from up to starting
+2020-10-08T19:18:40.614707+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-08T19:18:40.703686+00:00 heroku[web.1]: Process exited with status 143
+2020-10-08T19:18:43.891880+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-08T19:18:46.000000+00:00 app[api]: Build succeeded
+2020-10-08T19:18:48.324456+00:00 app[web.1]: * Serving Flask app "t8" (lazy loading)
+2020-10-08T19:18:48.324492+00:00 app[web.1]: * Environment: production
+2020-10-08T19:18:48.324558+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-08T19:18:48.324624+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-08T19:18:48.324668+00:00 app[web.1]: * Debug mode: off
+2020-10-08T19:18:48.363853+00:00 app[web.1]: * Running on http://0.0.0.0:32158/ (Press CTRL+C to quit)
+2020-10-08T19:18:49.032614+00:00 heroku[web.1]: State changed from starting to up
+2020-10-08T19:18:57.236184+00:00 app[web.1]: 10.69.237.10 - - [08/Oct/2020 19:18:57] "GET / HTTP/1.1" 200 -
+2020-10-08T19:18:57.239732+00:00 heroku[router]: at=info method=GET path="/" host=ac3luisantonio.herokuapp.com request_id=1dacbfa6-4420-46f8-942a-3a54c5d534d5 fwd="179.209.46.62" dyno=web.1 connect=0ms service=9ms status=200 bytes=186 protocol=https
+2020-10-08T19:24:20.000000+00:00 app[api]: Build started by user luis.cascelli@gmail.com
+2020-10-08T19:24:43.069902+00:00 app[api]: Deploy 0f24d9f1 by user luis.cascelli@gmail.com
+2020-10-08T19:24:43.069902+00:00 app[api]: Release v8 created by user luis.cascelli@gmail.com
+2020-10-08T19:24:43.525813+00:00 heroku[web.1]: Restarting
+2020-10-08T19:24:43.528143+00:00 heroku[web.1]: State changed from up to starting
+2020-10-08T19:24:45.063076+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-08T19:24:45.184145+00:00 heroku[web.1]: Process exited with status 143
+2020-10-08T19:24:46.838365+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-08T19:24:49.511899+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-08T19:24:49.512552+00:00 app[web.1]: * Environment: production
+2020-10-08T19:24:49.512553+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-08T19:24:49.512553+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-08T19:24:49.512568+00:00 app[web.1]: * Debug mode: off
+2020-10-08T19:24:49.532201+00:00 app[web.1]: * Running on http://0.0.0.0:7449/ (Press CTRL+C to quit)
+2020-10-08T19:24:49.702962+00:00 heroku[web.1]: State changed from starting to up
+2020-10-08T19:24:51.000000+00:00 app[api]: Build succeeded
+2020-10-08T19:25:05.979496+00:00 heroku[router]: at=info method=GET path="/" host=ac3luisantonio.herokuapp.com request_id=607c3ed2-1ccf-4843-9f4f-f465015c8f6f fwd="179.209.46.62" dyno=web.1 connect=1ms service=6ms status=200 bytes=523 protocol=https
+2020-10-08T19:25:05.979772+00:00 app[web.1]: 10.73.248.58 - - [08/Oct/2020 19:25:05] "GET / HTTP/1.1" 200 -
