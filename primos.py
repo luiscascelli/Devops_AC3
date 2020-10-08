@@ -18,7 +18,8 @@ def nprimos():
         if primo:
             p.append(i)
         i += 1
-    return p
+    listToStr = ' '.join(map(str, p))
+    return listToStr
 
 
 if __name__ == "__main__":
